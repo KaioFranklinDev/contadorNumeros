@@ -1,0 +1,39 @@
+header{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+body{
+    background: linear-gradient(#70bb44, #1d5a11);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 100vh;
+    height: auto;
+}
+#container-entrada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    padding: 30px;
+    gap: 15px;
+    border-radius: 5px;
+}
+#containerSaida{
+    display: flex;
+    width: 500px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #d2f0c1;
+    min-height: 100px;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+}
+footer{
+    color: white;
+}
